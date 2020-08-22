@@ -1,0 +1,62 @@
+[
+    {
+        "name":"First Event",
+        "image":"assets/img/eventpromo.jpg",
+        "date":"20-Apr-2020",
+        "seatsAvailable":3
+    },
+    {
+        "name":"Second Event",
+        "image":"assets/img/eventpromo.jpg",
+        "date":"20-Apr-2020",
+        "seatsAvailable":0
+    },
+    {
+        "name":"Third Event",
+        "image":"assets/img/eventpromo.jpg",
+        "date":"20-Apr-2020",
+        "seatsAvailable":20
+    },
+    {
+        "name":"Fourth Event",
+        "image":"assets/img/eventpromo.jpg",
+        "date":"20-Apr-2020",
+        "seatsAvailable":20
+    },
+    {
+        "name":"Fifth Event",
+        "image":"assets/img/eventpromo.jpg",
+        "date":"20-Apr-2020",
+        "seatsAvailable":0
+    },
+    {
+        "name":"Sixth Event",
+        "image":"assets/img/eventpromo.jpg",
+        "date":"20-Apr-2020",
+        "seatsAvailable":20
+    },
+    {
+        "name":"Seventh Event",
+        "image":"assets/img/eventpromo.jpg",
+        "date":"20-Apr-2020",
+        "seatsAvailable":20
+    },
+    {
+        "name":"Eighth Event",
+        "image":"assets/img/eventpromo.jpg",
+        "date":"20-Apr-2020",
+        "seatsAvailable":20
+    },
+    {
+        "name":"Ninth Event",
+        "image":"assets/img/eventpromo.jpg",
+        "date":"20-Apr-2020",
+        "seatsAvailable":20
+    },
+    {
+        "name":"Tenth Event",
+        "image":"assets/img/eventpromo.jpg",
+        "date":"20-Apr-2020",
+        "seatsAvailable":20
+    }
+]
