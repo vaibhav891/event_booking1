@@ -1,11 +1,13 @@
 import 'dart:convert';
 
 class Event {
+  String id;
   String name;
   String image;
   String date;
   int seatsAvailable;
   Event({
+    this.id,
     this.name,
     this.image,
     this.date,
@@ -14,6 +16,7 @@ class Event {
 
   Map<String, dynamic> toMap() {
     return {
+      'id': id,
       'name': name,
       'image': image,
       'date': date,
@@ -25,6 +28,7 @@ class Event {
     if (map == null) return null;
 
     return Event(
+      id: map['id'],
       name: map['name'],
       image: map['image'],
       date: map['date'],

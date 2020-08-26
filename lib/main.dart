@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           FutureBuilder<List<Event>>(
-            future: getEventList(_searchText),
+            future: Events().getEventList(_searchText),
             builder:
                 (BuildContext context, AsyncSnapshot<List<Event>> snapshot) {
               if (snapshot.hasData) {
@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
       child: InkWell(
         onTap: () => eventItem.seatsAvailable > 0
             ? Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => BookingPage(event: eventItem)))
+                builder: (context) => BookingPage(eventId: eventItem.id)))
             : null,
         child: Card(
           child: Column(
@@ -148,7 +148,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       Navigator.of(context).push(
                                           MaterialPageRoute(
                                               builder: (context) => BookingPage(
-                                                  event: eventItem)));
+                                                  eventId: eventItem.id)));
                                     },
                                     child: const Text("Buy Now"))
                                 : Text(
